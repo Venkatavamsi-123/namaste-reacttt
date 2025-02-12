@@ -1,6 +1,6 @@
 import useRestaurantMenu from "../utils/useRestaurantMenu";
 import Shimer from "./Shimer";
-import RestaurantCategory from "./RestaurantCategory";
+import RestaurantCategory from "./Restaurantcategory"
 
 import { useParams } from "react-router-dom";
 const RestaurantMenu = () => {

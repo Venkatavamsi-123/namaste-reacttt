@@ -57812,8 +57812,8 @@ var _useRestaurantMenu = require("../utils/useRestaurantMenu");
 var _useRestaurantMenuDefault = parcelHelpers.interopDefault(_useRestaurantMenu);
 var _shimer = require("./Shimer");
 var _shimerDefault = parcelHelpers.interopDefault(_shimer);
-var _restaurantCategory = require("./RestaurantCategory");
-var _restaurantCategoryDefault = parcelHelpers.interopDefault(_restaurantCategory);
+var _restaurantcategory = require("./Restaurantcategory");
+var _restaurantcategoryDefault = parcelHelpers.interopDefault(_restaurantcategory);
 var _reactRouterDom = require("react-router-dom");
 var _s = $RefreshSig$();
 const RestaurantMenu = ()=>{
@@ -57875,7 +57875,7 @@ const RestaurantMenu = ()=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "space-y-6",
-                children: categories.map((category, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantCategoryDefault.default), {
+                children: categories.map((category, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantcategoryDefault.default), {
                         data: category?.card?.card
                     }, index, false, {
                         fileName: "src/components/RestaurantMenu.js",
@@ -57910,7 +57910,7 @@ $RefreshReg$(_c, "RestaurantMenu");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../utils/useRestaurantMenu":"fMOkH","./Shimer":"kUU6F","./RestaurantCategory":"K7XHe","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fMOkH":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","../utils/useRestaurantMenu":"fMOkH","./Shimer":"kUU6F","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Restaurantcategory":"2vaJ4"}],"fMOkH":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$253c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -57943,11 +57943,11 @@ exports.default = useRestaurantMenu;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"21dqq","./constants":"hB8jg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"K7XHe":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$b1f7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react":"21dqq","./constants":"hB8jg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2vaJ4":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$d125 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$b1f7.prelude(module);
+$parcel$ReactRefreshHelpers$d125.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -57981,7 +57981,7 @@ const RestaurantCategory = ({ data })=>{
                             ")"
                         ]
                     }, void 0, true, {
-                        fileName: "src/components/RestaurantCategory.js",
+                        fileName: "src/components/Restaurantcategory.js",
                         lineNumber: 20,
                         columnNumber: 9
                     }, undefined),
@@ -57989,13 +57989,13 @@ const RestaurantCategory = ({ data })=>{
                         className: "text-xl text-gray-500 transform transition-transform duration-300",
                         children: isVisible ? "\u2B06\uFE0F" : "\u2B07\uFE0F"
                     }, void 0, false, {
-                        fileName: "src/components/RestaurantCategory.js",
+                        fileName: "src/components/Restaurantcategory.js",
                         lineNumber: 23,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
-                fileName: "src/components/RestaurantCategory.js",
+                fileName: "src/components/Restaurantcategory.js",
                 lineNumber: 16,
                 columnNumber: 7
             }, undefined),
@@ -58004,47 +58004,29 @@ const RestaurantCategory = ({ data })=>{
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _itemListDefault.default), {
                     items: data.itemCards
                 }, void 0, false, {
-                    fileName: "src/components/RestaurantCategory.js",
+                    fileName: "src/components/Restaurantcategory.js",
                     lineNumber: 31,
                     columnNumber: 11
                 }, undefined)
             }, void 0, false, {
-                fileName: "src/components/RestaurantCategory.js",
+                fileName: "src/components/Restaurantcategory.js",
                 lineNumber: 30,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
-        fileName: "src/components/RestaurantCategory.js",
+        fileName: "src/components/Restaurantcategory.js",
         lineNumber: 14,
         columnNumber: 5
     }, undefined);
 };
 _s(RestaurantCategory, "QjDZesRvLCmcrZLxgN677nXnVLA=");
 _c = RestaurantCategory;
-exports.default = RestaurantCategory; /*import ItemList from "./ItemList";
-const RestaurantCategory = ({ data }) => {
-    return (
-      <div className="flex items-center justify-between p-4 bg-gray-100 rounded-md shadow hover:bg-gray-200 cursor-pointer">
-        <span className="text-lg font-semibold text-gray-800">{data.title}({data.itemCards.length})</span>
-        <span className="text-xl text-gray-500">⬇️</span>
-        <ItemList items={data.itemCards} />
-      </div>
-      
-    );
-  };
-  
-  export default RestaurantCategory;*/  /*const RestaurantCategory=({data})=>{
-    return <div>
-        <span>{data.title}</span>
-        <span>⬇️</span>
-    </div>
-}
-export default RestaurantCategory*/ 
+exports.default = RestaurantCategory;
 var _c;
 $RefreshReg$(_c, "RestaurantCategory");
 
-  $parcel$ReactRefreshHelpers$b1f7.postlude(module);
+  $parcel$ReactRefreshHelpers$d125.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
