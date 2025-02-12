@@ -25,7 +25,7 @@ const RestaurantCategory = ({ data }) => {
         </span>
       </div>
 
-      {/* ItemList Section */}
+     
       {isVisible && (
         <div className="mt-4">
           <ItemList items={data.itemCards} />
