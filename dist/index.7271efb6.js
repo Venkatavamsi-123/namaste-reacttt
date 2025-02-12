@@ -57901,45 +57901,7 @@ _s(RestaurantMenu, "AiHvB81g6SCA0NgkkVv8q716maY=", false, function() {
     ];
 });
 _c = RestaurantMenu;
-exports.default = RestaurantMenu; /*
-import useRestaurantMenu from "../utils/useRestaurantMenu";
-import Shimer from "./Shimer";
-import RestaurantCategory from "./RestaurantCategory";
-
-import { useParams } from "react-router-dom";
-const RestaurantMenu = () => {
- const {resId}=useParams()
- const resInfo = useRestaurantMenu(resId)
-if (resInfo ===null) return<Shimer/>
-    const {name,cuisines,costForTwoMessage}=resInfo?.cards[2]?.card?.card?.info;
-    const {itemCards}=resInfo?.cards[4].groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card;
-    
-const categories=resInfo?.cards[4].groupedCard?.cardGroupMap?.REGULAR?.cards.filter((c)=>c.card?.card?.["@type"]==="type.googleapis.com/swiggy.presentation.food.v2.ItemCategory");
-
-
-  
-    return (
-      <div className="menu">
-        <h1>{name}</h1>
-        <p>
-            {cuisines.join(",")}-{costForTwoMessage}
-        </p>
-        <h2 className="text-2xl font-semibold text-gray-700 mb-4">Menu</h2>
-      
-      {/* Categories List 
-      <div className="space-y-4">
-        {categories.map((category, index) => (
-          <RestaurantCategory 
-            key={index} 
-            data={category?.card?.card} 
-          />
-        ))}
-      </div>
-    </div>
-  );
-};
-
-export default RestaurantMenu;*/ 
+exports.default = RestaurantMenu;
 var _c;
 $RefreshReg$(_c, "RestaurantMenu");
 
