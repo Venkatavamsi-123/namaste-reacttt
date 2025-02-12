@@ -2969,6 +2969,8 @@ var _cartDefault = parcelHelpers.interopDefault(_cart);
 var _reactRedux = require("react-redux"); // Redux provider
 var _appStore = require("./utils/appStore"); // Ensure appStore is correctly imported
 var _appStoreDefault = parcelHelpers.interopDefault(_appStore);
+var _footer = require("./components/Footer");
+var _footerDefault = parcelHelpers.interopDefault(_footer);
 const AppLayout = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRedux.Provider), {
         store: (0, _appStoreDefault.default),
@@ -2977,23 +2979,28 @@ const AppLayout = ()=>{
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 19,
+                    lineNumber: 20,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 20,
+                    lineNumber: 21,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 22,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/App.js",
-            lineNumber: 18,
+            lineNumber: 19,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/App.js",
-        lineNumber: 17,
+        lineNumber: 18,
         columnNumber: 5
     }, undefined);
 };
@@ -3003,12 +3010,12 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 30,
+            lineNumber: 32,
             columnNumber: 14
         }, undefined),
         errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 31,
+            lineNumber: 33,
             columnNumber: 19
         }, undefined),
         children: [
@@ -3016,7 +3023,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 35,
+                    lineNumber: 37,
                     columnNumber: 18
                 }, undefined)
             },
@@ -3024,7 +3031,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/about",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 39,
+                    lineNumber: 43,
                     columnNumber: 18
                 }, undefined)
             },
@@ -3032,7 +3039,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/contact",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 43,
+                    lineNumber: 47,
                     columnNumber: 18
                 }, undefined)
             },
@@ -3040,7 +3047,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/restaurants/:resId",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantMenuDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 47,
+                    lineNumber: 51,
                     columnNumber: 18
                 }, undefined)
             },
@@ -3048,7 +3055,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/cart",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cartDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 51,
+                    lineNumber: 55,
                     columnNumber: 18
                 }, undefined)
             }
@@ -3060,7 +3067,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
     router: appRouter
 }, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 58,
+    lineNumber: 62,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -3071,7 +3078,7 @@ $RefreshReg$(_c, "AppLayout");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Error":"kvula","./components/RestaurantMenu":"8PuJ6","./components/Cart":"h8J3U","react-redux":"62sf7","./utils/appStore":"6A5Ux","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Error":"kvula","./components/RestaurantMenu":"8PuJ6","./components/Cart":"h8J3U","react-redux":"62sf7","./utils/appStore":"6A5Ux","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Footer":"8pPOA"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -62237,6 +62244,160 @@ const appStore = (0, _toolkit.configureStore)({
 });
 exports.default = appStore;
 
-},{"@reduxjs/toolkit":"fuua8","./cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
+},{"@reduxjs/toolkit":"fuua8","./cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8pPOA":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$bc7c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$bc7c.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const Footer = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
+        className: "bg-black text-white py-6",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container mx-auto px-6 flex flex-col items-center justify-center space-y-4",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "text-center",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                            className: "text-3xl font-bold text-red-500",
+                            children: "SamudraRuchuluu"
+                        }, void 0, false, {
+                            fileName: "src/components/Footer.js",
+                            lineNumber: 10,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-gray-400",
+                            children: "Freshly Made, Just for You"
+                        }, void 0, false, {
+                            fileName: "src/components/Footer.js",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Footer.js",
+                    lineNumber: 9,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex space-x-6",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "#",
+                            className: "text-gray-400 hover:text-red-500 text-xl",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                className: "fab fa-facebook-f"
+                            }, void 0, false, {
+                                fileName: "src/components/Footer.js",
+                                lineNumber: 17,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Footer.js",
+                            lineNumber: 16,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "#",
+                            className: "text-gray-400 hover:text-red-500 text-xl",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                className: "fab fa-twitter"
+                            }, void 0, false, {
+                                fileName: "src/components/Footer.js",
+                                lineNumber: 20,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Footer.js",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "#",
+                            className: "text-gray-400 hover:text-red-500 text-xl",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                className: "fab fa-instagram"
+                            }, void 0, false, {
+                                fileName: "src/components/Footer.js",
+                                lineNumber: 23,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Footer.js",
+                            lineNumber: 22,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Footer.js",
+                    lineNumber: 15,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "text-center text-gray-400 text-sm mt-4",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "\uD83D\uDCDE Call us:7569447729"
+                        }, void 0, false, {
+                            fileName: "src/components/Footer.js",
+                            lineNumber: 29,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "\uD83D\uDCE7 Email:venkatavamsi448@gmail.com"
+                        }, void 0, false, {
+                            fileName: "src/components/Footer.js",
+                            lineNumber: 30,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Footer.js",
+                    lineNumber: 28,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "border-t border-gray-700 pt-4 mt-4 text-center text-gray-400 text-sm",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "\xa9 2025 SamudraRuchuluu. All rights reserved."
+                    }, void 0, false, {
+                        fileName: "src/components/Footer.js",
+                        lineNumber: 35,
+                        columnNumber: 11
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/Footer.js",
+                    lineNumber: 34,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Footer.js",
+            lineNumber: 6,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/Footer.js",
+        lineNumber: 5,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Footer;
+exports.default = Footer;
+var _c;
+$RefreshReg$(_c, "Footer");
+
+  $parcel$ReactRefreshHelpers$bc7c.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","7T53S","2kQhy"], "2kQhy", "parcelRequire94c2")
 
 //# sourceMappingURL=index.7271efb6.js.map

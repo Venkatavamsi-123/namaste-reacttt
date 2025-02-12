@@ -10,6 +10,7 @@ import RestaurantMenu from "./components/RestaurantMenu";
 import Cart from "./components/Cart";
 import { Provider } from "react-redux"; // Redux provider
 import appStore from "./utils/appStore";// Ensure appStore is correctly imported
+import Footer from "./components/Footer";
 
 
 const AppLayout = () => {
@@ -18,6 +19,7 @@ const AppLayout = () => {
       <div className="app">
         <Header />
         <Outlet /> 
+        <Footer />
         {/* Renders the child routes */}
       </div>
     </Provider>
@@ -34,6 +36,8 @@ const appRouter = createBrowserRouter([
         path: "/",
         element: <Body />,
       },
+      
+     
       {
         path: "/about",
         element: <About />,
